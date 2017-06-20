@@ -7,8 +7,8 @@
 //
 
 import XCTest
-
-class FunctionalTests: XCTestCase {
+import KIF
+class FunctionalTests: KIFTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,8 +21,15 @@ class FunctionalTests: XCTestCase {
     }
     
     func testExample() {
+        tester().tapView(withAccessibilityLabel: "Egg Benedict")
+        let view1: UILabel = tester().waitForView(withAccessibilityLabel: "name") as! UILabel
+        XCTAssertEqual(view1.text, "Egg Benedict")
+        let view2: UILabel = tester().waitForView(withAccessibilityLabel: "prepTime") as! UILabel
+        XCTAssertEqual(view2.text, "Prep Time: 1 hour")
+        //        XCTAssertEqul
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+
     }
     
     func testPerformanceExample() {

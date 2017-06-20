@@ -22,6 +22,8 @@ class DetailViewController: UIViewController {
         navigationItem.title = recipe?.name
         imageView?.image = UIImage(named: recipe!.thumbnails)
         nameLabel?.text = recipe!.name
+        nameLabel?.accessibilityLabel = ("name")
         prepTime?.text = "Prep Time: " + recipe!.prepTime
+        prepTime?.accessibilityLabel = ("prepTime")
     }    
 }
