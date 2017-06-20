@@ -50,6 +50,7 @@ class RecipesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: TableCell! = tableView.dequeueReusableCell(withIdentifier: identifier) as? TableCell
         cell.configurateTheCell(recipes[indexPath.row])
+        cell.accessibilityLabel = recipes[indexPath.row].name
         return cell!
     }
     
