@@ -33,7 +33,7 @@
 		77B85BD919E99A7B005CB58F /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77B85BC919E99A7B005CB58F /* white_chocolate_donut.jpg */; };
 		77B85BDD19E99C6E005CB58F /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B85BDC19E99C6E005CB58F /* TableCell.swift */; };
 		9C5D15241EF9070000BC753A /* FunctionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D15231EF9070000BC753A /* FunctionalTests.swift */; };
-		9C5D152C1EF908C800BC753A /* KifExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D152B1EF908C800BC753A /* KifExtensions.swift */; };
+		9C91F8641EF90CC900F61307 /* KifExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C91F8631EF90CC900F61307 /* KifExtensions.swift */; };
 		B0C662FF583C7D4A1D8BAE15 /* Pods_FunctionalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964D5AF5284C80697EC43181 /* Pods_FunctionalTests.framework */; };
 		D89BDAF7FE9ED09F9C15DE9C /* Pods_Swift_TableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1422EF080173720CABCC5E0D /* Pods_Swift_TableView_Example.framework */; };
 		F35F6379D93838B3A5903BDB /* Pods_Swift_TableView_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F626EC7B4F4BFFA292720ECB /* Pods_Swift_TableView_ExampleTests.framework */; };
@@ -93,7 +93,7 @@
 		9C5D15211EF9070000BC753A /* FunctionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5D15231EF9070000BC753A /* FunctionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalTests.swift; sourceTree = "<group>"; };
 		9C5D15251EF9070000BC753A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C5D152B1EF908C800BC753A /* KifExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KifExtensions.swift; path = ../../dev/ios/delta/ios/Source/FlyDelta/FunctionalTests/KifExtensions.swift; sourceTree = "<group>"; };
+		9C91F8631EF90CC900F61307 /* KifExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KifExtensions.swift; sourceTree = "<group>"; };
 		A352802C92BCB3118086F548 /* Pods-FunctionalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalTests/Pods-FunctionalTests.release.xcconfig"; sourceTree = "<group>"; };
 		B513DD3B436B234A62B7A816 /* Pods-Swift-TableView-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-TableView-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-TableView-Example/Pods-Swift-TableView-Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF419860ED2646ECE2EADA68 /* Pods-FunctionalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunctionalTests/Pods-FunctionalTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 		9C5D15221EF9070000BC753A /* FunctionalTests */ = {
 			isa = PBXGroup;
 			children = (
-				9C5D152B1EF908C800BC753A /* KifExtensions.swift */,
+				9C91F8631EF90CC900F61307 /* KifExtensions.swift */,
 				9C5D15231EF9070000BC753A /* FunctionalTests.swift */,
 				9C5D15251EF9070000BC753A /* Info.plist */,
 			);
@@ -575,7 +575,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C5D152C1EF908C800BC753A /* KifExtensions.swift in Sources */,
+				9C91F8641EF90CC900F61307 /* KifExtensions.swift in Sources */,
 				9C5D15241EF9070000BC753A /* FunctionalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
